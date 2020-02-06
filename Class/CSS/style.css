@@ -3,6 +3,7 @@
 h1 {
   color: red;
   font-family: 'Lato', sans-serif;
+  margin: auto;
 }
 
 /* This is a class */
@@ -10,7 +11,8 @@ h1 {
 {
   background-color: rgb(75, 194, 26);
   width: 600px;
-  margin: 50%;
+  margin: auto;
+  padding: 20px;
 }
 .container h1 {font-size: 15px}
 
