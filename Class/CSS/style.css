@@ -1,7 +1,7 @@
 
 /* This will grab all the h1 tags */
 h1 {
-  color: red;
+  color: black;
   font-family: 'Lato', sans-serif;
   margin: auto;
 }
@@ -13,11 +13,13 @@ h1 {
   width: 600px;
   margin: auto;
   padding: 20px;
+  box-shadow: 5px 10px 10px 10px rgb(100, 111, 96);
+  border-radius: 50px;
 }
 .container h1 {font-size: 15px}
 
 .article h1 {
-  color: red;
+  color: blue;
 }
 /* This is a id  */
 #flower {
