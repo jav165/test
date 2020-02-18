@@ -1,0 +1,56 @@
+.horizontalline li a:hover
+{
+  color: gray;
+  text-decoration: red;
+  font-family: sans-serif;
+}
+.horizontalline li a:hover
+{
+  color: red;
+}
+.navigation
+{
+  display: table;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.photos
+{
+  background-color: white;
+  width: 1200px;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px ;
+
+}
+.photos h1 {font-size: 15px}
+h1 {
+  color: black;
+  font-family: 'Lato', sans-serif;
+  margin: auto;
+}
+.about
+{
+
+  width: 1000px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 2px ;
+}
+.about
+{
+  background-color: lightgray;
+}
+.workexp
+{
+
+  width: 1000px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 2px ;
+}
+.workexp
+{
+  background-color: lightblue;
+}
