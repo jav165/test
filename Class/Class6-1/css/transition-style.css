@@ -182,7 +182,7 @@ transition-timing-function: ease-in-out;
 {
   margin: auto;
   height: 600px;
-  background-color: pink;
+  background-color: blue;
 }
 .cardBase
 {
@@ -196,6 +196,19 @@ transition-timing-function: ease-in-out;
 {
   width: 50%;
   margin-top: 100%;
+
+}
+.boxAnimation
+{
+  transition-duration: 1000ms;
+  transition-property: transform;
+  background-color: #3DCCC7;
+  transition-timing-function: ease-in;
+}
+
+.boxAnimation:hover {
+  transform: rotate(45deg);
+
 }
 
 /* You should put your transition code here: */
