@@ -1,7 +1,14 @@
-.horizontalline li a:hover
+.horizontalline li {
+  display: inline;
+  margin: 40px;
+  padding: 20px 60px 20px 60px;
+  background-color: lightpink;
+  width: 10%;
+}
+.horizontalline li a
 {
   color: gray;
-  text-decoration: red;
+  text-decoration: none;
   font-family: sans-serif;
 }
 .horizontalline li a:hover
@@ -24,7 +31,7 @@
   box-shadow: 2px 2px 2px 2px ;
 
 }
-.photos h1 {font-size: 15px}
+.photos h1 {font-size: 100px}
 h1 {
   color: black;
   font-family: 'Lato', sans-serif;
@@ -33,7 +40,7 @@ h1 {
 .about
 {
 
-  width: 1000px;
+  width: 1200px;
   margin: auto;
   padding: 20px;
   box-shadow: 2px 2px 2px 2px ;
@@ -45,7 +52,7 @@ h1 {
 .workexp
 {
 
-  width: 1000px;
+  width: 1200px;
   margin: auto;
   padding: 20px;
   box-shadow: 2px 2px 2px 2px ;
@@ -53,4 +60,17 @@ h1 {
 .workexp
 {
   background-color: lightblue;
+}
+.contact
+{
+  width: 1200px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 2px ;
+
+}
+.contact
+{
+border: thick double #32a1ce;
+  background-color:lightpink
 }
