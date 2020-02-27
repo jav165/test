@@ -115,6 +115,9 @@ background-color: pink;
   width: 90%;
   height: 90vh;
   margin: auto;
+  display: grid;
+  grid-template-rows: 30% 15% 30% 15%;
+  grid-template-columns: 1fr;
   /* here goes your main grid: */
 }
 
