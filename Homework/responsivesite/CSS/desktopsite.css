@@ -48,15 +48,14 @@ h2 {
 }
 .basicGrid
 {
-  width: 80%;
-  height: 100vh;
+  width: 100%;
+  height: 40vh;
   margin: auto;
-  display: grid;
-  /* THIS DEFINES THE HEIGHT OF YOUR ROWS */
-  grid-template-rows: 20% 20%;
-  /* 1 fr will be relative to the width size of your row, and the amounts of columns you have */
-  grid-template-columns:1fr 1fr;
 
+  display: grid;
+  grid-template-rows: 0%;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
 
 
 }
