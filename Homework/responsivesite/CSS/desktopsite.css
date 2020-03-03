@@ -1,7 +1,7 @@
-h1 {
+h2 {
   color: black;
   font-family: 'Lato', sans-serif;
-  margin: auto;
+  margin: center;
 }
 
 /* This is a class */
@@ -14,21 +14,7 @@ h1 {
   box-shadow: 2px 2px 2px 2px ;
 
 }
-.container h1 {font-size: 15px}
-.sidebar{
-  float: left;
-  background-color: white;
-  width: 10%;
-  margin: auto;
-  margin-top: 150px;
-  box-shadow: 2px 2px 2px 2px;
 
-
-}
-.article h1 {
-  color: blue;
-}
-/* This is a id  */
 
 
 
@@ -59,4 +45,18 @@ h1 {
 .horizontalline li a:hover
 {
   color: blue;
+}
+.basicGrid
+{
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  display: grid;
+  /* THIS DEFINES THE HEIGHT OF YOUR ROWS */
+  grid-template-rows: 20% 20%;
+  /* 1 fr will be relative to the width size of your row, and the amounts of columns you have */
+  grid-template-columns:1fr 1fr;
+
+
+
 }
