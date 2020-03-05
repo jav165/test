@@ -73,3 +73,12 @@ h2 {
 grid-template-columns: 1fr;
 grid-column-gap: 20%
 }
+.container2
+{
+  background-color: blue;
+
+  margin: auto;
+  padding: 20px;
+  box-shadow: 2px 2px 2px 2px ;
+
+}
