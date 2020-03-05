@@ -60,3 +60,15 @@ h2 {
 
 
 }
+.picgrid
+{
+
+  margin: auto;
+  display: grid;
+  grid-template-rows: 0%;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 15px;
+  width: 200px;
+   height: 120px;
+
+}
