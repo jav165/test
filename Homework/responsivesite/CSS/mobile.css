@@ -63,12 +63,13 @@ h2 {
 .picgrid
 {
 
-  margin: auto;
+  width: 100%;
+  height: 260vh;
   display: grid;
-  grid-template-rows: 0%;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 15px;
-  width: 200px;
-   height: 120px;
-
+  grid-template-areas: "1"
+  "2";
+  grid-template-rows:50% 50%;
+  grid-row-gap: 20px;
+grid-template-columns: 1fr;
+grid-column-gap: 20%
 }
