@@ -36,23 +36,23 @@ $("footer").mouseleave(function() {
 
 // Here goes your jQuery :
 
-$("#_hide").click(function(){
+$("#_hide2").click(function(){
   $(".gridContent div:first-child p").hide();
 });
 
-$("#_show").click(function(){
+$("#_show2").click(function(){
   $(".gridContent div:first-child p").show();
 });
 
-$("#_toggle").click( function(){
+$("#_toggle2").click( function(){
   $(".gridContent div:nth-child(2) p").toggle();
 });
 
-$("#_html").click(function() {
+$("#_html2").click(function() {
   $(".gridContent div:nth-child(3) p").html("Hello <b>World</b>!");
 });
 
-$("#_css").click(function(){
+$("#_css2").click(function(){
   $(".box").css("background-color", "lightgreen");
 });
 
