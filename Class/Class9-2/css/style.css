@@ -223,3 +223,10 @@ h1
 {
   background-color: #d5d5d5;
 }
+.box2
+{
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background-color: pink;
+}

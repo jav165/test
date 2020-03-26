@@ -53,7 +53,7 @@ $("#_html2").click(function() {
 });
 
 $("#_css2").click(function(){
-  $(".box2").css("background-color", "lightgreen");
+  $(".box2").css("background-color", "green");
 });
 
 });
