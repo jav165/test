@@ -37,23 +37,23 @@ $("footer").mouseleave(function() {
 // Here goes your jQuery :
 
 $("#_hide2").click(function(){
-  $(".gridContent div:first-child p").hide();
+  $(".smallGridBug div:first-child p").hide();
 });
 
 $("#_show2").click(function(){
-  $(".gridContent div:first-child p").show();
+  $(".smallGridBug div:first-child p").show();
 });
 
 $("#_toggle2").click( function(){
-  $(".gridContent div:nth-child(2) p").toggle();
+  $(".smallGridBug div:nth-child(2) p").toggle();
 });
 
 $("#_html2").click(function() {
-  $(".gridContent div:nth-child(3) p").html("Hello <b>World</b>!");
+  $(".smallGridBug div:nth-child(3) p").html("Hello <b>World</b>!");
 });
 
 $("#_css2").click(function(){
-  $(".box").css("background-color", "lightgreen");
+  $(".box2").css("background-color", "lightgreen");
 });
 
 });
