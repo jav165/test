@@ -22,8 +22,7 @@ $("#button2").click(function(){
 $("#button3").click(function(){
   $("#set1").hide();
   $("#set2").hide();
-  $("#set3").show();
-});
+  $("#set3").shiw();});
 
 
 
