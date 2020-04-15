@@ -12,7 +12,11 @@ $("#_show").click(function(){
 });
 $(".title").lettering();
    });
-  
+   jQuery("#nanoGallery1").nanoGallery({
+ 		kind:'flickr',
+ 		userID:'34858669@N00'
+ 	});
+ });
 $("#_css").click(function(){
   $(".container2").css("background-color", "green");
 });
