@@ -12,7 +12,7 @@ $("#_show").click(function(){
 });
 $(".title").lettering();
    });
-
+  
 $("#_css").click(function(){
   $(".container2").css("background-color", "green");
 });
