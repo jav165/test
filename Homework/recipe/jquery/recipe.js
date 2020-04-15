@@ -10,8 +10,8 @@ $("#_html").click(function() {
 $("#_show").click(function(){
   $(".ingredients").show();
 });
-$(".fancy_title").lettering();
-	  });
+$(".title").lettering();
+   });
 
 $("#_css").click(function(){
   $(".container2").css("background-color", "green");
