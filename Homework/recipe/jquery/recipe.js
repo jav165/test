@@ -1,5 +1,5 @@
 $(document).ready( function(){
-  $(".title").lettering();;
+  $(".title").lettering();
      $('#pagepiling').pagepiling();
 
   $   ("nanoGallery2");
