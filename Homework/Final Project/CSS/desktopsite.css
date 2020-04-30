@@ -10,11 +10,13 @@ text-align: center;
 /* This is a class */
 .container
 {
-  background-color: white;
-  width: 600px;
-  margin: auto;
-  padding: 20px;
-  box-shadow: 1px 1px 1px 1px ;
+  width:600px;
+	border-radius: 10px;
+	border:3px solid blue;
+	margin:0 auto;
+	padding-left:35px;
+	padding-top:25px;
+	background-color: white;
 
 }
 
@@ -36,7 +38,7 @@ text-align: center;
   display: inline;
   margin: 40px;
   padding: 20px 60px 20px 60px;
-  background-color: red;
+  background-color: lightgrey;
   width: 10%;
 }
 .horizontalline li a
@@ -103,5 +105,33 @@ text-align: center;
 }
 
 body {
-  background-color: navy;
+  background-color: #f4efe6;
+}
+
+
+
+
+.content {
+	width:600px;
+	border-radius: 10px;
+	border:3px solid blue;
+	margin:0 auto;
+	padding-left:35px;
+	padding-top:25px;
+	background-color: white;
+  align-content: center;
+}
+
+img.socmed {
+	width:100px;
+	float:left;
+	padding-right:10px;
+}
+#logo {
+  display: inline-block;
+  margin: 15px;
+  float: left;
+  height: 60px;
+  width: auto;
+  border-radius: 50%;
 }
