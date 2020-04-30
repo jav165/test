@@ -36,12 +36,12 @@ text-align: center;
   display: inline;
   margin: 40px;
   padding: 20px 60px 20px 60px;
-  background-color: lightgreen;
+  background-color: red;
   width: 10%;
 }
 .horizontalline li a
 {
-  color: gray;
+  color: black;
   text-decoration: none;
   font-family: sans-serif;
 }
@@ -103,5 +103,5 @@ text-align: center;
 }
 
 body {
-  background-color: beige;
+  background-color: navy;
 }
