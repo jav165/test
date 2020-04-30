@@ -2,8 +2,11 @@ h2 {
   color: black;
   font-family: 'Lato', sans-serif;
   margin: center;
+  text-align: center;
 }
-
+p {
+text-align: center;
+}
 /* This is a class */
 .container
 {
@@ -97,4 +100,8 @@ h2 {
   padding: 20px;
   box-shadow: 2px 2px 2px 2px ;
 
+}
+
+body {
+  background-color: beige;
 }
