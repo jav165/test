@@ -22,7 +22,7 @@ h2 {
 .navigation
 {
   display: table;
-  margin: 0 auto;
+  margin:  auto;
   margin-top: 30px;
   margin-bottom: 80px;
 }
@@ -81,4 +81,20 @@ grid-column-gap: 20%
   padding: 20px;
   box-shadow: 2px 2px 2px 2px ;
 
+}
+img.socmed {
+	width:100px;
+	float:left;
+	padding-right:10px;
+}
+#logo {
+  display: inline-block;
+  margin: 15px;
+  float: left;
+  height: 60px;
+  width: auto;
+  border-radius: 50%;
+}
+body {
+  background-color: #f4efe6;
 }
