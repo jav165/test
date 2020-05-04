@@ -1,5 +1,5 @@
 h2 {
-  color: black;
+  color: red;
   font-family: 'Lato', sans-serif;
   margin: center;
 }
@@ -9,7 +9,7 @@ h2 {
 {
   background-color: white;
   width: 800px;
-  height: 500px;
+  height: 650px;
   margin: auto;
   padding: 20px;
   box-shadow: 2px 2px 2px 2px ;
@@ -21,18 +21,19 @@ h2 {
 
 .navigation
 {
-  display: table;
+  display: grid;
   margin:  auto;
-  margin-top: 30px;
-  margin-bottom: 80px;
+
 }
 .horizontalline
 {
   padding-top: 20px;
+  display: grid
+\
 }
 .horizontalline li {
-  display: inherit;
 
+display: grid;
   padding: 20px 60px 20px 60px;
   background-color: lightpink;
 
