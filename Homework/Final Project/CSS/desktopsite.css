@@ -1,7 +1,7 @@
 h2 {
   color: black;
   font-family: 'Lato', sans-serif;
-  margin: center;
+  margin: auto;
   text-align: center;
 }
 p {
@@ -109,7 +109,7 @@ body {
 }
 .reserve
 {
-  text-align: : center
+  text-align:center;
 }
 
 

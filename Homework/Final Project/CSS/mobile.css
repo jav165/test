@@ -1,7 +1,7 @@
 h2 {
   color: red;
   font-family: 'Lato', sans-serif;
-  margin: center;
+  margin: auto;
 }
 
 /* This is a class */
@@ -29,7 +29,7 @@ h2 {
 {
   padding-top: 20px;
   display: grid
-\
+
 }
 .horizontalline li {
 
