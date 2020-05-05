@@ -15,27 +15,35 @@ h2 {
   box-shadow: 2px 2px 2px 2px ;
 
 }
+.basicGridpats
+{
+  width: 60%;
+  height: 40vh;
+  margin: auto;
 
-
+  display: grid;
+  grid-template-rows: 0%;
+  grid-template-columns: 1fr;
+  grid-column-gap: 15px;
 
 
 .navigation
 {
-  display: grid;
+  display: block;
   margin:  auto;
 
 }
 .horizontalline
 {
   padding-top: 20px;
-  display: grid
+  display: block;
 
 }
 .horizontalline li {
 
 display: grid;
   padding: 20px 60px 20px 60px;
-  background-color: lightpink;
+  background-color: lightgrey;
 
 }
 .horizontalline li a
@@ -103,4 +111,14 @@ img
 {
   width: 300px;
   height: auto;
+}
+.photoset-grid-custom {
+  width: 25%;
+  height: 50vh;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 50%;
+  grid-template-columns: 1fr;
+  grid-row-gap: 5px;
+  grid-column-gap: 30px;
 }
