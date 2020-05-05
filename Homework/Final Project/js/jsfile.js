@@ -2,8 +2,8 @@ $(document).ready(function(){
   $('.photoset-grid-custom').photosetGrid({
     });
 
-    $("#.html").mouseover(function(){
-        $("p").html("Yeah! You're over me");
+    $("#_class2").mouseover(function(){
+        $("class1").html("Enjoy your dinner!");
     });
 
   });
